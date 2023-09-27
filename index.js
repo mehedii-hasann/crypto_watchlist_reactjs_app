@@ -25,7 +25,7 @@ function MyReactComponent(props){
                 }
             }
             fetch(api_string,{
-                method:'GET', headers: {'Accepts': 'application/json','X-CMC_PRO_API_KEY': '63be7f99-4796-49a3-8628-0f722749d66b', origin: 'https://mehedii-hasann.github.io/crypto_watchlist_reactjs_app/'}
+                method:'GET', headers: {'Accepts': 'application/json','X-CMC_PRO_API_KEY': '63be7f99-4796-49a3-8628-0f722749d66b', origin: 'https://mehedii-hasann.github.io'}
               })
             .then(response => response.json())
             .then(response =>{
