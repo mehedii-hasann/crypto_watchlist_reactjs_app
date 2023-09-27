@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>My Portfolio</title>
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/react-loading-skeleton@3.3.1/dist/index.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/react-loading-skeleton@3.3.1/dist/skeleton.min.css" rel="stylesheet">
+        <style type="text/css">
+            body{
+                /* background: rgb(26,138,173); */
+                background: linear-gradient(34deg, rgb(20, 10, 10) 40%, rgba(28,15,61,1) 65%, rgb(18, 98, 123) 100%);;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            .element-container {
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 10px; /* Adjust the gap between elements */
+                }
+            .element-item {
+                background-color: #f0f0f0;
+                padding: 10px;
+                border: 1px solid #ccc;
+                text-align: center;
+                border-radius: 5px;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="user">
+            <script type="text/babel" src="index.js"></script>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
